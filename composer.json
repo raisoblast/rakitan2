@@ -1,0 +1,38 @@
+{
+    "name": "raisoblast/rakitan2",
+    "description": "Very simple component-based PHP web framework",
+    "keywords": ["php", "framework", "component-based"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arif Kurniawan",
+            "email": "arifk97@gmail.com",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "php-di/php-di": "^5.4",
+        "ocramius/proxy-manager": "^2.1",
+        "zendframework/zend-diactoros": "^1.4",
+        "tracy/tracy": "dev-master",
+        "oscarotero/middleland": "^0.4.0",
+        "altorouter/altorouter": "^1.2",
+        "middlewares/base-path": "^0.3.0",
+        "league/plates": "^3.3",
+        "monolog/monolog": "^1.23",
+        "dflydev/fig-cookies": "^1.0",
+        "plasticbrain/php-flash-messages": "^1.0",
+        "hassankhan/config": "^0.10.0",
+        "aura/session": "^2.1",
+        "aura/sql": "3.x-dev",
+        "aura/sqlquery": "3.x-dev",
+        "doctrine/annotations": "^1.5",
+        "vlucas/valitron": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rakitan\\": "src/"
+        }
+    }
+}
